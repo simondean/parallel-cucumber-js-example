@@ -1,0 +1,48 @@
+{
+  "name": "parallel-cucumber-js-example",
+  "description": "Example of how to use parallel-cucumber-js to execute cucumber-js tests in parallel across multiple processes",
+  "keywords": [
+    "cucumber",
+    "cucumber-js",
+    "grid",
+    "parallel",
+    "scale",
+    "parallel",
+    "parallel-cucumber"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://github.com/simondean/parallel-cucumber-js-example",
+  "author": {
+    "name": "Simon Dean",
+    "email": "simon@simondean.org",
+    "url": "http://www.simondean.org"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simondean/parallel-cucumber-js-example.git"
+  },
+  "bugs": {
+    "url": "http://github.com/simondean/parallel-cucumber-js-example/issues"
+  },
+  "engines": {
+    "node": ">=0.8.19"
+  },
+  "dependencies": {
+    "cucumber": "~0.3.1",
+    "parallel-cucumber": "~0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-shell": "~0.7.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/simondean/parallel-cucumber-js-example/LICENSE"
+    }
+  ]
+}
