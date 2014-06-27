@@ -24,16 +24,7 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      tests: ['tmp'],
-      waitingFeatures: ['features/waiting/copy_*']
-    },
-
-    copy: {
-      waitingFeatures: {
-        files: [
-          waitingFeatureCopies
-        ]
-      }
+      tests: ['tmp']
     },
 
     shell: {
@@ -46,10 +37,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-shell');
 
-  grunt.registerTask('updateWaitingFeatures', ['clean:waitingFeatures', 'copy:waitingFeatures']);
   grunt.registerTask('features', ['shell:features']);
 
   grunt.registerTask('test', ['jshint', 'features']);
