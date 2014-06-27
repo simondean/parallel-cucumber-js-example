@@ -30,14 +30,18 @@
     "node": ">=0.8.19"
   },
   "dependencies": {
-    "cucumber": "~0.3.1",
-    "parallel-cucumber": "~0.0.1"
+    "cucumber": ">=0.4.0",
+    "parallel-cucumber": ">=0.1.3"
   },
   "devDependencies": {
+    "grunt-cli": "~0.1.13",
     "grunt": "~0.4.4",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-shell": "~0.7.0"
+  },
+  "scripts": {
+    "test": "grunt test"
   },
   "licenses": [
     {

@@ -52,6 +52,7 @@ module.exports = function(grunt) {
   grunt.registerTask('updateWaitingFeatures', ['clean:waitingFeatures', 'copy:waitingFeatures']);
   grunt.registerTask('features', ['shell:features']);
 
-  grunt.registerTask('default', ['jshint', 'updateWaitingFeatures', 'features']);
+  grunt.registerTask('test', ['jshint', 'features']);
+  grunt.registerTask('default', ['test']);
 
 };
