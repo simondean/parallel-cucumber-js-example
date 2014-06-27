@@ -21,5 +21,5 @@ $ npm install
 The tests are executed by running the following command in a terminals:
 
 ``` shell
-$ node_modules/.bin/parallel-cucumber --workers 4
+$ node_modules/.bin/parallel-cucumber --workers 4 --profiles.sleep --profiles.busy
 ```
