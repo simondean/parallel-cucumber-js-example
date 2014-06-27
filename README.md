@@ -13,7 +13,7 @@ parallel across multiple processes.
 Install the codebase's dependencies with:
 
 ``` shell
-$ npm install --dev
+$ npm install
 ```
 
 ### Run
